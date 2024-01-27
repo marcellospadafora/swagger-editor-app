@@ -2,12 +2,19 @@
 
 An Electron-based Swagger Editor app, wrapping [editor.swagger.io](https://editor.swagger.io/).
 
-## Dependencies
+## Install Nativefier
 
-- [nativefier](https://github.com/jiahaog/nativefier), "a command-line tool to easily create a desktop application for any web site with succinct and minimal configuration."
+[Nativefier](https://github.com/jiahaog/nativefier) is a command-line tool to easily create a desktop application for any web site with succinct and minimal configuration.  
+Install it in current directory with:
 
-    Install it with `npm install -g nativefier`.
+```bash
+npm install nativefier
+```
 
-## Install
+## Install Swagger Editor
 
-After installing nativefier, run `make install-mac` in this directory to build & install the app in `/Applications`.
+To build and install the Swagger Editor App in `/Applications`, run the command:
+
+```bash
+make install
+```

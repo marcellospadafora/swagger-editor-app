@@ -1,4 +1,4 @@
-darwin-x64-template/
-
-# build products:
-mac/
+# build products
+build/
+node_modules
+package*.json
