@@ -1,6 +1,6 @@
 SHELL:=/usr/bin/env bash
 
-VERSION=v4.11.2
+VERSION=v4.12.2
 APP_NAME=Swagger Editor
 ARCH=arm64
 TARGET_DIR=./build/${APP_NAME}-darwin-${ARCH}
